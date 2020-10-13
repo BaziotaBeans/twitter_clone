@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beans">
+    <meta name="description" content="Twitter Clone">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/93146aa192.js" crossorigin="anonymous"></script>
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-left">
+                <ul>
+                    <a href="#" class="logo"><i class='bx bxl-twitter'></i></a>
+                    <li><a class='active'><i class='bx bxs-home-circle' ></i><span class='menu-text'>Home</span></a></li>
+                    <li><a><i class="fas fa-hashtag"></i><span class='menu-text'>Explore</span></a></li>
+                    <li><a class="notification"><i class="far fa-bell"> </i><span class="number">13</span><span class='menu-text'>Notifications</span></a></li>
+                    <li><a><i class="far fa-envelope"></i><span class='menu-text'>Messages</span></a></li>
+                    <li><a><i class='bx bx-bookmark' ></i><span class='menu-text'>Bookmarks</span></a></li>
+                    <li><a><i class='bx bx-list-ul' ></i><span class='menu-text'>Lists</span></a></li>
+                    <li><a><i class="far fa-user"></i><span class='menu-text'>Profile</span></a></li>
+                    <li><a><i class='bx bx-dots-horizontal-rounded' ></i><span class='menu-text'>More</span></a></li>
+                    <li><button></button></li>
+                </ul>
+                <div class="btn-account">
+                    <div class="account-info">
+                        <div class="img">
+                            <img src="img/Beans Avatar.jpg" alt="Perfil">
+                        </div>
+                        <div class="account-info__name">
+                            <h2>BaziotaBeans</h2>
+                            <span>@baziota</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="col col-middle">
+                <div class="col-middle__top">
+                    <h1>Home</h1>
+                    <span><i class='bx bxs-star-half'></i></span>
+                </div>
+                <div class="col-middle__post">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/Beans Avatar.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__content">
+                        <textarea id="textarea" placeholder="What's happening?"></textarea> 
+                        <span class="col-middle__post__content__btn">
+                            <i class="fas fa-globe-americas"></i>
+                            <h3 class="">Everyone can reply</h3>
+                        </span>
+                        <!-- <hr> -->
+                        <div class="line"></div>
+                        <div class="col-middle__post__content__bottom">
+                            <div class="bottom__left">
+                                <span><i class="fas fa-image"></i></span>
+                                <span><i class='bx bxs-file-gif'></i></i></span>
+                                <span><i class='bx bx-poll'></i></span>
+                                <span><i class="far fa-smile"></i></span>
+                                <span><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                            <button class="bottom-twett">Tweet</button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="col-middle__principal_line">
+
+                <!------------------------------------------------------------------>
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/freeCodeCamp.org.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">freeCodeCamp.org</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@freeCodeCamp</span>
+                            <span class="date"> <span>&bull;</span> 14m</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>Do you want to learn how to store data in an Android application?
+                            
+                                Watch this course on using a SQLite Database with Android Studio from Shad Sluiter.
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_5.jpeg" alt="Dijkstra's">
+                                <div class="info__link">
+                                    <h3>How to Use a SQlite Database with Android Studio</h3>  
+                                    <p>Most Android apps need to store data somewhere and the most
+                                        common way to store data on Android is using a SQLite Database. We...
+                                    </p>
+                                    <span class="p-link"><i class="fas fa-link"></i>freecodecamp.org</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">8</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">34</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+                 <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/florinpop.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Florin Pop 🙍‍♂️</h2>
+                            <!-- <span class="checked-user"><i class='bx bxs-badge-check'></i></span>  -->
+                            <span class="author_account">@florinpop1705</span>
+                            <span class="date"> <span>&bull;</span> 2h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>It's starting!! 🔥
+                            </p>
+                            <div class="content__link img-u">
+                                <img src="img/post_6.jpeg" alt="Dijkstra's">
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">12</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">4</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">35</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+                 <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/davido.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Davido</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">Davido</span>
+                            <span class="date"> <span>&bull;</span> 3h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>Minor victories and they’re all coming together. Little by little. From social 
+                                media, to the streets to the office of the Inspector General of Police to the 
+                                office of the Speaker of the House of reps. Each and every single one of our our 
+                                voices is being heard! 5 for 5 granted.
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_7.jpeg" alt="Dijkstra's">
+                                <div class="info__link">
+                                    <span class="p-link"><i class="fas fa-link"></i>hiphopNews.com</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1.8K</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">16.8K</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">84.5K</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+                 <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/huawei.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Huawei</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@Huawei</span>
+                            <span class="date"> <span>&bull;</span> 8h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>The 1-day countdown for <span class="hashtag">#UBBF2020</span> has begun. In less than 24 hours, you’ll
+                                get firsthand information on why ultra-broadband network infrastructure is 
+                                key to a connected & intelligent future and more. Don’t miss the keynotes —
+                                sign up for the livestream: https://tinyurl.com/y4gncjhd
+                            </p>
+                            <div class="content__link img-u">
+                                <img src="img/post_8.png" alt="Dijkstra's">
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">203</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                <!------------------------------------------------------------------>
+                <!------------------------------------------------------------------>
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/freeCodeCamp.org.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">freeCodeCamp.org</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@freeCodeCamp</span>
+                            <span class="date"> <span>&bull;</span> 8h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>You've probably heard it before - if you want to learn a new skill, build
+                                something with it.
+                                
+                                So here's a fun React project for ya.
+                                In this article, <span class="hashtag">@chrisblakely01</span> shows you how to build a shopping list using
+                                React Hooks (w/ starter code and video).
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_9.jpeg" alt="Dijkstra's">
+                                <div class="info__link">
+                                    <h3>How to Build a Shopping List Using React Hooks (w/Starter Code ...</h3> 
+                                    <p>What we're building In this beginner React tuturial, we're going to build a
+                                        shopping app. We'll work with complex state objects, update parts of th...
+                                    </p>
+                                    <span class="p-link"><i class="fas fa-link"></i>freecodecamp.org</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">203</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+                <!------------------------------------------------------------------>
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/freeCodeCamp.org.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">freeCodeCamp.org</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@freeCodeCamp</span>
+                            <span class="date"> <span>&bull;</span> 9h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>When you're working on a machine learning project, one of the steps you
+                                have to perform is hyperparameter optimization.
+                                
+                                In this in-depth guide,  <span class="hashtag">@Davis_McDavid</span> walks you through several
+                                techniques to improve your machine learning model's performance. 
+                                
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_10.jpeg" alt="Dijkstra's">
+                                <div class="info__link">
+                                    <h3>Hyperparameter Optimization Techniques to improve Your machine...</h3> 
+                                    <p>When working on a machine learning project, you need to follow a series
+                                        of steps until you reach your goal. One of the steps you have to perfor...
+                                    </p>
+                                    <span class="p-link"><i class="fas fa-link"></i>freecodecamp.org</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">57</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/rocketseat.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Rocketseat</h2>
+                           <!-- <span class="checked-user"><i class='bx bxs-badge-check'></i></span> -->
+                            <span class="author_account">@rocketseat</span>
+                            <span class="date"> <span>&bull;</span> 1h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>Entre tantas datas, o <span class="hashtag">#NLW03</span> não aconteceu no Dia das Criança por engano. 
+                            
+                            Essa é uma homenagem a todas as crianças que precisam de (todos) nós para celebrar esse dia com toda alegria que merecem.👨‍👩‍👦💜
+                            </p>
+                            <div class="content__link img-u">
+                                <img src="img/post_4.jpeg" alt="Dijkstra's">
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">203</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                <!--------------------------------------------------------->
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/rocketseat.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Rocketseat</h2> 
+                            <span class="author_account">@rocketseat</span>
+                            <span class="date"> <span>&bull;</span> 7h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>O <span class="hashtag">#NLW03</span> começou! 🚀
+
+                                A primeira aula da semana já está liberada. Lembrem de todas as nossas 
+                                dicas e bora começar mais uma jornada juntos para o próximo nível. 💜
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_1.jpeg" alt="NLW03">
+                                <div class="info__link">
+                                    <h3>Next Level Week #3</h3>
+                                    <p>Um evento para dar o próximo passo na sua evolução como 
+                                        programadora ou programador.
+                                    </p>
+                                    <span class="p-link"><i class="fas fa-link"></i>nextlevelweek.com</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">3</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">43</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">515</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                <!------------------------------------------------------------------>
+
+                <!------------------------------------------------------------------>
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/freeCodeCamp.org.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">freeCodeCamp.org</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@freeCodeCamp</span>
+                            <span class="date"> <span>&bull;</span> 7h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>Dijkstra's Shortest Path algorithm is commonly used in computer science.
+
+                                And as it's a graphing algorithm, it helps to see it represented visually.
+
+                                In this detailed article  <span class="hashtag">@EstefaniaCassN</span> explains the algorithm step-by-step with plenty of images.
+                            </p>
+                            <div class="content__link">
+                                <img src="img/post_2.jpeg" alt="Dijkstra's">
+                                <div class="info__link">
+                                    <h3>Dijkstra's Shortest Path Algorithm - A Detailed and Visual Introduction</h3> 
+                                    <p>Welcome! if you've always wanted to learn and understand Dijkstra's
+                                        algorithm, them this article is for you. You will see how it works behind t...
+                                    </p>
+                                    <span class="p-link"><i class="fas fa-link"></i>freecodecamp.org</span>
+                                </div>
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">203</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                 <!------------------------------------------------------------------>
+
+                <!------------------------------------------------------------------>
+                <div class="col-middle__post__tweet">
+                    <div class="col-middle__post__img__profile">
+                        <img src="img/huawei.jpg" alt="Profile">
+                    </div>
+                    <div class="col-middle__post__tweet__content">
+                        <div class="col-middle__post__tweet__content_top">
+                            <h2 class="author_name">Huawei</h2>
+                            <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                            <span class="author_account">@Huawei</span>
+                            <span class="date"> <span>&bull;</span> 8h</span>
+                        </div>
+                        <div class="col-middle__post__tweet__content_text">
+                            <p>4 critics from different walks of life take the stage. Who’s on Huawei’s side?
+                                Who isn’t? Mark your calendars for the debate livestream on Oct 16. 
+                                <span class="hashtag">#HuaweiDebate</span> 
+                            </p>
+                            <div class="content__link img-u">
+                                <img src="img/post_3.jpeg" alt="Dijkstra's">
+                            </div>
+                            <div class="content__action">
+                                <span class="comment">
+                                    <i class="far fa-comment"></i> 
+                                    <span class="comment-number">1</span> 
+                                </span>
+                                <span class="retweet">
+                                    <i class="fas fa-retweet"></i></i>
+                                    <span class="retweet-number">50</span> 
+                                </span>
+                                <span class="favorite">
+                                    <i class="far fa-heart"></i>
+                                    <span class="favorite-number">203</span> 
+                                </span>
+                                <span class="external-link">
+                                    <i class='bx bx-link-external'></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <spn class="more-info"><i class="fas fa-chevron-down"></i></spn>
+                </div>
+                
+            </div>
+
+            <!------------------------------------------------------------------------->
+
+            <div class="col col-right">
+                <div class="search_bar">
+                    <span class="search-icon"><i class='bx bx-search'></i></span>
+                    <input type="text" placeholder="Search Twitter">
+
+                </div>
+                <!---->
+                <div class="card__trend">
+                    <div class="card__trend__top">
+                        <h1>Trends for you</h1>
+                        <span class="setting"><i class="fas fa-cog"></i></span>
+                    </div>
+                    <div class="card__trend__body">
+                        <div class="card__trend__body__content">
+                            <span class="card__trending-country">Trending in Angola</span>
+                            <h2>#LakeShow🏀</h2>
+                            <span class="card__trending-tweets">43.2K Tweets</span>
+                        </div>
+                        <span class="toggle_card"><i class="fas fa-angle-down"></i></span>
+                    </div>
+                    <div class="card__trend__body">
+                        <div class="card__trend__body__content">
+                            <span class="card__trending-country">Trending in Angola</span>
+                            <h2>#NBAFinals</h2>
+                            <span class="card__trending-tweets">70.2K Tweets</span>
+                        </div>
+                        <span class="toggle_card"><i class="fas fa-angle-down"></i></span>
+                    </div>
+                    <div class="card__trend__bottom">
+                        <span>Show more</span>
+                    </div>
+                </div>
+                <!---->
+                <div class="card__follow">
+                    <div class="card__follow__top">
+                        <h1>Who to follow</h1>
+                    </div>
+
+                    <div class="card__follow__body">
+                        <div class="card__follow__body__content">
+                            <img src="img/huawei.jpg" alt="">
+                            <div class="follow_box">
+                                <div class="follow_user_container">
+                                    <span class="follow_user_name">Huawei Europe</span>
+                                    <span class="checked-user"><i class='bx bxs-badge-check'></i></span> 
+                                </div>
+                                <span class="follow_account">@Huawei_Europe</span>
+                            </div>
+                        </div>
+                        <span class="btn-follow">Follow</span>
+                    </div>
+                    
+                    <div class="card__follow__body">
+                        <div class="card__follow__body__content">
+                            <img src="img/loiane.jpg" alt="">
+                            <div class="follow_box">
+                                <div class="follow_user_container">
+                                    <span class="follow_user_name">Loiane Groner</span>
+                                </div>
+                                <span class="follow_account">@loiane</span>
+                            </div>
+                        </div>
+                        <span class="btn-follow">Follow</span>
+                    </div>
+
+        
+                   
+                    <div class="card__follow__bottom">
+                        <span>Show more</span>
+                    </div>
+                </div>
+
+                <div class="col-right-bottom">
+                    <div class="lnk_1">
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                    <div class="lnk_1">
+                        <a href="#">Ads info</a>
+                        <a href="#">More <i class="fas fa-angle-down"></i></a>
+                        <span>© 2020 Twitter, Inc.</span>
+                    </div>
+                </div>
+
+
+                <!-- DIV END --->
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>00...
+
+3
