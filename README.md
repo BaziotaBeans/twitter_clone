@@ -1,5 +1,5 @@
 # Twitter Clone
-### Twitter clone Build with Pure CSS + HTML + JS
+### Twitter clone built with Pure CSS + HTML + JS
 ## 🎴 Layout
 ![image](https://user-images.githubusercontent.com/48324076/95918482-cae88b00-0da3-11eb-936a-1dec670eb250.png)
 
